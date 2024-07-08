@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*---- font-family: "Work Sans", sans-serif; -------*/
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: "Work Sans", sans-serif;
+}
+#hero{
+    height:800px;
+    background:linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-element{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.hero-element .p1{
+    color: rgb(255, 255, 255); 
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin:16px 0;
+    opacity:0.8;
+}
+.hero-element-tag{
+    width:1000px;
+
+}
+.hero-element-tag h1{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    margin:24px 0;
+}
+.hero-element-tag p{
+    margin:32px 0;
+    color: rgb(255, 255, 255);
+    opacity:0.8;
+}
+.hero-element button{
+    width:269px;
+    height:66px;
+    border:none;
+    outline:none;
+    padding:20px 30px;
+    font-size: 17px;
+    background-color: rgb(77, 190, 36);
+    color:white;
+}
+.card-section{
+    width:1363Px;
+    height:899px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 300px 30px 300px;
+}
+.card-box{
+    width:940px;
+    height:530px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-box-title{
+    width:490px;
+    height: 123px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.card-box-title p{
+    font-size: 22px;
+    color:rgb(16, 16, 16);
+    margin:20px;
+    opacity: 0.8;
+}
+.card-box-title h1{
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+.card{
+    display: flex;
+    justify-content:space-around;           
+    align-items: center;
+    gap:20px;
+
+}
+.card-1, .card-2, .card-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px 5px rgb(247, 133, 26);
+    border-radius: 10px;
+}
+.card-1:hover{
+    box-shadow: 5px 5px 10px 5px rgb(29, 25, 240);
+}
+.card-2:hover{
+    box-shadow: 5px 5px 10px 5px rgb(29, 25, 240);
+}
+.card-3:hover{
+    box-shadow: 5px 5px 10px 5px rgb(29, 25, 240);
+}
+.card-btn{
+   width:170px;
+   height: 40px;
+   text-align: center;
+   margin:20px 10px;
+   border: none;
+   outline:none;
+   background-color: rgb(229, 246, 217);
+   font-size: 20px;
+   cursor:pointer;
+}
+.card-h1{
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 24px 40px;
+}
+.card-p{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding:20px;
+}
+.about-us{
+    width: 1363px;
+    height:550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 300px;
+}
+.about-img{
+    width:50%;
+}
+.about-img img{
+    width:100%;
+}
+.about-information{
+    width:50%;
+    padding:20px 90px;
+}
+.about-information h1{
+    color: rgb(16, 16, 16);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding:20px 0;    
+}
+.about-information p{
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0 10px 30px 10px;
+    opacity: 0.8;
+}
+.about-information h2{
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.about-icon{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin:20px 10px;
+}
+.about-icon i{
+    font-size: 25px;
+}
+.single-card{
+    width:1920px;
+    height:876px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us{
+    width:1920px;
+    height:670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    background: linear-gradient(rgba(253, 246, 246, 0.75),rgba(247, 242, 242, 0.788)),url("../assets/biriyani.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+hr{
+    margin:20px 20px;
+    outline: none;
+    color:black;
+}
